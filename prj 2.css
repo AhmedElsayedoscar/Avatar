@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+*{
+    font-family: 'Rubik', sans-serif;
+    padding: 0px;
+    margin: 0;
+}
+a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+body{
+
+background-image:linear-gradient(to right,#01022d ,#000) ;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.banr{
+  background-image:
+    linear-gradient(to right, #01022dba 30% ,#0000008c),
+    url(download.webp);
+
+    background-position: center;
+    height: 650px;
+    width: 80%;
+}
+
+.banr:hover{
+    background-image:
+    linear-gradient(to right, #01022dba 30% , transparent ),
+    url(download.webp);
+    
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+ul{
+    width: 60%;
+ list-style: none;
+ display: flex;
+ justify-content: space-evenly;
+}
+ a:hover {
+
+    border-bottom: 2px solid white;
+
+}
+.contant{
+color: white;
+width: 400px;
+margin-top: 50px;
+padding: 30px
+
+
+
+}
+.contant h2{
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Rubik&display=swap');
+    font-family: 'Playfair Display', serif;
+font-size:100px;
+color: white;
+text-transform: uppercase;
+}
+.contant p{
+
+letter-spacing: 3px;
+padding: 20px 0;
+}
+
+.contant button{
+font-size: 30px;
+padding: 5px 10px;
+border-radius: 10px;
+border-radius: 2px soild transparent;
+/* شكل الماوس ايد */
+cursor: pointer;
+
+}
+.contant button:hover{
+ color: white;
+ border-color: white;
+background-color: transparent;
+
+}
